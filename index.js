@@ -3,8 +3,8 @@ const discord = require("discord.js"); // load of discord.js
 const fs = require("fs"); // load of file system
 const client = new discord.Client({partials: ['MESSAGE', 'CHANNEL', 'REACTION']}); // add partials to get older messages
 // json imports
-const config = JSON.parse(fs.readFileSync("./config/config.json")); // load of the config file
-const languages = JSON.parse(fs.readFileSync("./languages/en-US.json"));
+const config = JSON.parse(fs.readFileSync("./src/config/config.json")); // load of the config file
+const languages = JSON.parse(fs.readFileSync("./src/languages/en-US.json"));
 // class imports
 const {Database} = require("./src/database/Database.js"); // load the database class
 
