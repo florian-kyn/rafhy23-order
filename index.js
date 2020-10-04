@@ -6,13 +6,13 @@ const client = new discord.Client({partials: ['MESSAGE', 'CHANNEL', 'REACTION']}
 const config = JSON.parse(fs.readFileSync("./config/config.json")); // load of the config file
 const languages = JSON.parse(fs.readFileSync("./languages/en-US.json"));
 // class imports
-const {Database} = require("./database/Database.js"); // load the database class
+const {Database} = require("./src/database/Database.js"); // load the database class
 
 //Commands imports
-const {Stocks} = require("./commands/Stocks.js");
+const {Stocks} = require("./src/commands/Stocks.js");
 
 //API Imports
-const {Fmp} = require("./api/Fmp.js");
+const {Fmp} = require("./src/api/Fmp.js");
 
 // client events
 client.on("ready", () => { // event when the bot's ready
