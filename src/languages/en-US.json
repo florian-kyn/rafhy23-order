@@ -1,0 +1,62 @@
+{
+  "stocks": {
+    "stock": {
+      "messageError": [
+        "You must specify a stock name.",
+        "The stock you specified has not been found."
+      ],
+      "embeds": {
+        "fieldName": [
+          "Price in $US:",
+          "Changes in %:",
+          "Volume average:",
+          "MarketCap:",
+          "Float:",
+          "Volume:"
+        ]
+      }
+    },
+    "bio": {
+      "messageError": [
+        "You must specify a stock name.",
+        "The stock you specified has not been found."
+      ],
+      "embeds": {
+        "fieldName": [
+          "Sector:",
+          "Industry:",
+          "C.E.O:",
+          "State:",
+          "City:",
+          "Employees:",
+          "Biography:"
+        ]
+      }
+    },
+    "financial": {
+      "messageError": [
+        "You must specify a stock name.",
+        "The stock you specified has not been found."
+      ],
+      "embeds": {
+        "fieldName": [
+          "Revenue:",
+          "Net Income:",
+          "Gross Profit:",
+          "Brut Income:",
+          "Net Income Ratio:",
+          "Gross Ratio:"
+        ]
+      }
+    },
+    "help": {
+      "embed": {
+        "commandDesc": [
+          "- Shows the price, change percentage, volume, and other information about a given stock!",
+          "- Shows information such as the sector, the city and other information about a given stock!",
+          "- Shows Revenue, Net Income, Debt, Gross Profit and Gross Ratio and more from the given company!"
+        ]
+      }
+    }
+  }
+}

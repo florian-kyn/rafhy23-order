@@ -1,0 +1,16 @@
+{
+  "api":{
+    "fmpKey": "ac9488450f64aec278fdb4364d1f7a64"
+  },
+  "client": {
+    "prefix": "?",
+    "token": "NzU5NDAyMDU3NzE4OTU2MDMz.X28-Rw.tuzAIGjoMtiOnTdmNVLWUVx3qhY"
+  },
+  "database": {
+    "database": "database",
+    "username": "username",
+    "password": "password",
+    "host": "host",
+    "port": "port"
+  }
+}
