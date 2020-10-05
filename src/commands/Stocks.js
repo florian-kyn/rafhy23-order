@@ -43,7 +43,7 @@ class Stocks {
                 }
             });
 
-            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/quote/${this.args[1].toUpperCase()}?apikey=ac9488450f64aec278fdb4364d1f7a64`).then(async (info) => {
+            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/quote/${this.args[1].toUpperCase()}?apikey=db25b5705aee1f644bdc325497affc04`).then(async (info) => {
                 if(info.length >= 1) {
                     await Info.push(info)
                 } else {
@@ -89,7 +89,7 @@ class Stocks {
                 }
             });
 
-            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/income-statement/${this.args[1].toUpperCase()}?limit=1&apikey=ac9488450f64aec278fdb4364d1f7a64`).then(async (info) => {
+            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/income-statement/${this.args[1].toUpperCase()}?limit=1&apikey=db25b5705aee1f644bdc325497affc04`).then(async (info) => {
                 if(info.length >= 1) {
                     await Info.push(info)
 
@@ -118,7 +118,7 @@ class Stocks {
                 }
             });
 
-            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/income-statement/${this.args[1].toUpperCase()}?limit=1&apikey=ac9488450f64aec278fdb4364d1f7a64`).then(async (info) => {
+            await new Fmp(this.config, this.client).forceFetch(`https://financialmodelingprep.com/api/v3/income-statement/${this.args[1].toUpperCase()}?limit=1&apikey=db25b5705aee1f644bdc325497affc04`).then(async (info) => {
                 if(info.length >= 1) {
                     await Info.push(info)
 
